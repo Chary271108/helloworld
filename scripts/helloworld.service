@@ -1,0 +1,6 @@
+[Unit]
+description=Hello world Deamon
+
+[Service]
+Restart=on-failure
+ExecStart=/usr/bin/node /home/ec2-user/helloworld.js
