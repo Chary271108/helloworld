@@ -1,5 +1,5 @@
 #!/bin/sh
-[[ -e /etc/init/helloworld.conf ]] \
+[[ -e /lib/systemd/system/helloworld.service ]] \
  && status helloworld | \
  grep -q '^helloworld start/running, process' \
  && [[ $? -eq 0 ]] \
