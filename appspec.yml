@@ -9,7 +9,7 @@ files:
 
 hooks:
   BeforeInstall:
-    - location: script/stop.sh
+    - location: scripts/stop.sh
       timeout: 30
       runas: root
   ApplicationStart:
